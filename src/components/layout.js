@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,6 +27,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <div style={{ 
+        margin: `0 auto`,
+        backgroundColor: `#f4f4f4`, 
+        padding: `1em 1.5em`, 
+        letterSpacing: `0.5px`,
+        textAlign: `center`, 
+        fontWeight: `300`,
+        fontSize: `1.15rem`,
+        lineHeight: `1.6em`,
+        marginBottom: `1em`
+        }}> Summerside Community Choir is the longest-running community choir on PEI!</div>  
       <div
         style={{
           margin: `0 auto`,
@@ -34,16 +46,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()} <a href="https://www.rainsberger.ca">Sarah Rainsberger</a>, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a> on a Chromebook via <a href="https://www.codesandbox.io">CodeSandbox</a>
-        </footer>
-      </div>
+        </div>
+      
+      <Footer siteTitle={data.site.siteMetadata?.title || `Title`} />
+
     </>
   )
 }
