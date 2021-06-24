@@ -56,9 +56,9 @@ const Footer = ({ siteTitle }) => (
 
       <div style={{ }}>
         <p style={{}}>sumchoir@gmail.com</p>
-        <p style={{}}><Link style={{fontSize: "0.75rem", color:"white", fontWeight: "bold", letterSpacing: "0.5px", textDecoration: "none"}} to="https://www.twitter.com/SummersideChoir"><StaticImage src="../images/twitter.png" alt="SCC Twitter" width="20" />{` `} SummersideChoir</Link></p>
-        <p style={{}}><Link style={{fontSize: "0.75rem", color:"white", fontWeight: "bold", letterSpacing: "0.5px", textDecoration: "none"}} to="https://www.facebook.com/SummersideChoir"><StaticImage src="../images/fb.png" alt="SCC Facebook" width="20" />{` `} SummersideChoir</Link></p>
-        <p><Link to="https://www.youtube.com/user/SummersideChoirPEI/"><StaticImage src="../images/youtube.png" alt="SCC YouTube" width="70" /></Link></p> 
+        <p style={{}}><a style={{fontSize: "0.75rem", color:"white", fontWeight: "bold", letterSpacing: "0.5px", textDecoration: "none"}} href="https://www.twitter.com/SummersideChoir"><StaticImage src="../images/twitter.png" alt="SCC Twitter" width="20" />{` `} SummersideChoir</a></p>
+        <p style={{}}><a style={{fontSize: "0.75rem", color:"white", fontWeight: "bold", letterSpacing: "0.5px", textDecoration: "none"}} href="https://www.facebook.com/SummersideChoir"><StaticImage src="../images/fb.png" alt="SCC Facebook" width="20" />{` `} SummersideChoir</a></p>
+        <p><a href="https://www.youtube.com/user/SummersideChoirPEI/"><StaticImage src="../images/youtube.png" alt="SCC YouTube" width="70" /></a></p> 
       </div>
       
       <div style={{}}>
