@@ -1,13 +1,14 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import {StaticImage} from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>SCC take 2?!</h1>
+    <StaticImage src="../images/SCC2019FUN.jpg" alt="SCC fun pose"  />
+     
     <ul>
       <li><Link to="/blog/">Blog</Link></li>
       <li><Link to="/about/">About</Link></li>
