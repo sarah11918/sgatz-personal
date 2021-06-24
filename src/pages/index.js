@@ -2,6 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import {StaticImage} from "gatsby-plugin-image"
 import Layout from "../components/layout"
+import RecentTweet from "../components/twitter"
 import SEO from "../components/seo"
 
 const IndexPage = () => {
@@ -61,6 +62,7 @@ const IndexPage = () => {
           </ul>
           <span style={{border: `1px solid gray`, padding: `0.5em 1.2em`, letterSpacing: `0.5px`, fontWeight: `300`}} ><Link style={{textDecoration: `none`, color: `black`}} to="/blog">More News >></Link></span>
       </div>
+      <RecentTweet />
 
     </Layout>
 )
