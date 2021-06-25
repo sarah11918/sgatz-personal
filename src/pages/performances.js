@@ -14,6 +14,7 @@ const Performances = () => {
         <iframe
           width = "100%"
           height = "400px"
+          loading = "lazy"
           src="https://www.youtube.com/embed/niIwmOOsxNs"
           title="videoTitle"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
