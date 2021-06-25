@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,6 +9,21 @@ const Performances = () => {
       <SEO title="Summerside Choir Performances" />
       <h1>Upcoming Performances</h1>
       <p>Here is some info about performances.</p>
+
+      <div>
+        <iframe
+          width = "100%"
+          height = "400px"
+          src="https://www.youtube.com/embed/niIwmOOsxNs"
+          title="videoTitle"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          frameBorder="0"
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+          allowFullScreen
+        />
+      </div>
+
       <h2>Past Performances</h2>
       <div style={{maxWidth: `750px`}}>
       <StaticImage src="../images/concertposterchristmas2019.jpg" alt="2019 Christmas Concert Poster" width="180" />
