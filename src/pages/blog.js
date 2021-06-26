@@ -41,8 +41,7 @@ const Blog = () => {
               </h2>
                <div>
                 <span>
-                  Posted on {edge.node.frontmatter.date} <span> / </span>{" "}
-                  {edge.node.timeToRead} min read
+                  Posted on {edge.node.frontmatter.date}
                 </span>
               </div>
               <p style={{marginTop: `1em`}}>{edge.node.excerpt}</p>

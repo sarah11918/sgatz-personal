@@ -12,13 +12,11 @@ const BlogPost = ({data}) => {
         <h1>{post.frontmatter.title}</h1>
         <span>
           Posted on {post.frontmatter.date}{" "}
-          <span> / </span> {post.timeToRead} min read
-        </span>
         <hr />
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
         ></div>
-        <Link to="/blog/">Back to all posts </Link>
+        <Link to="/blog/"><< Back to all news </Link>
       </div>
     </Layout>
   )
