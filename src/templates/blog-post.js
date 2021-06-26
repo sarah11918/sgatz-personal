@@ -10,13 +10,14 @@ const BlogPost = ({data}) => {
       <SEO title={post.frontmatter.title} />
       <div>
         <h1>{post.frontmatter.title}</h1>
-        <span>
-          Posted on {post.frontmatter.date}{" "}
+          <span>
+          {post.frontmatter.date}
+          </span>
         <hr />
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
         ></div>
-        <Link to="/blog/"><< Back to all news </Link>
+        <Link to="/blog/">Back to all news</Link>
       </div>
     </Layout>
   )
