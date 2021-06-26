@@ -17,7 +17,7 @@ const BlogPost = ({data}) => {
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
         ></div>
-        <Link to="/blog/">Back to all news</Link>
+        <Link to="/blog/">{`<<`} Back to all news</Link>
       </div>
     </Layout>
   )
