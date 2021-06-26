@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `sarah's Gatsby`,
-    description: `sarah11918 doing Gatsby`,
-    author: `@sarah11918`,
-    siteUrl: `https://sgatz.netlify.app/`,
+    title: `Summerside Community Choir`,
+    description: `PEI's longest-running community Choir!`,
+    author: `@summersidechoir`,
+    siteUrl: `https://sumchoir.netlify.app/`,
   },
   plugins: [
     {
@@ -25,7 +25,7 @@ module.exports = {
           ...options,
           custom_elements: [
             {
-              'atom:link href="https://sgatz.netlify.app/rss.xml" rel="self" type="application/rss+xml"': null,
+              'atom:link href="https://sumchoir.netlify.app/rss.xml" rel="self" type="application/rss+xml"': null,
             },
           ],
       }),
@@ -62,7 +62,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Sarah's Gatsby RSS Feed",
+            title: "SummersideChoir RSS Feed",
           },
         ],
       },
@@ -128,7 +128,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/sgatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/scclogo.png`, // This path is relative to the root of the site.
       },
     },
  
