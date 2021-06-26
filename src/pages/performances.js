@@ -7,8 +7,12 @@ const Performances = () => {
   return (
     <Layout>
       <SEO title="Summerside Choir Performances" />
-      <h1>Upcoming Performances</h1>
-      <p>Here is some info about performances.</p>
+      <h1>2021 Performances</h1>
+      <h3 style={{fontStyle: "italic"}}>Spring Concerts</h3>
+      <p>(Term cancelled due to Covid-19)</p>
+      <h3 style={{fontStyle: "italic"}}>Christmas Concerts</h3>
+      <p>We hope we will be able to do something for Christmas 2021. Please check back!</p>
+      <p>Date TBA - Trinity United Church, Summerside PE (<a href="https://goo.gl/maps/nuzN7oMkWLG2">map</a>)</p>
 
       <div>
         <iframe
@@ -23,8 +27,11 @@ const Performances = () => {
           mozallowfullscreen="true"
           allowFullScreen
         />
+        <p>See more videos of the choir on <a href="https://www.youtube.com/user/SummersideChoirPEI/">our YouTube page!</a></p>
+
       </div>
 
+      
       <h2>Past Performances</h2>
       <div style={{maxWidth: `750px`}}>
       <StaticImage src="../images/concertposterchristmas2019.jpg" alt="2019 Christmas Concert Poster" width="180" />
