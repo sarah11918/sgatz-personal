@@ -29,7 +29,7 @@ const Blog = () => {
   )
   return (
     <Layout>
-      <SEO title="Blog Posts" />
+      <SEO title="News" />
       <ul style={{listStyle: `none`}}>
         {data.allMarkdownRemark.edges.map(edge => {
           return (

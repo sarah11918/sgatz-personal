@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const Join = () => {
   return (
     <Layout>
-      <SEO title="Join the Choir" />
+      <SEO title="Join" />
       <h1>Join Summerside Community Choir!</h1>
       <h3 style={{fontStyle: "italic", paddingLeft: "3rem"}}>COVID-19 in 2021:</h3>
       <p style={{fontStyle: "italic", paddingLeft: "3rem", paddingRight: "3em"}}>We are planning to resume in-person rehearsals for the Fall 2021 term in September, subject to public health recommendations, and welcome new members to sing with us. We will have more information prior to the start of the term.</p>

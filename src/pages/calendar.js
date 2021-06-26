@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 const Calendar = () => {
   return (
     <Layout>
-      <SEO title="Summerside Choir Calendar" />
+      <SEO title="Calendar" />
       <h1>Calendar</h1>
       <p>Keep track of upcoming rehearsals, concerts and events!</p>
       <div>

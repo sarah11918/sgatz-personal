@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const Performances = () => {
   return (
     <Layout>
-      <SEO title="Summerside Choir Performances" />
+      <SEO title="Performances" />
       <h1>2021 Performances</h1>
       <h3 style={{fontStyle: "italic"}}>Spring Concerts</h3>
       <p>(Term cancelled due to Covid-19)</p>
