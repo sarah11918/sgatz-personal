@@ -6,7 +6,7 @@ date: 2019-03-04
 
 
 ---
-<!-- ![](/images/20190319_210047.jpg) -->
+![An open box from Knol Farms and two drinking glasses ready to use the frozen blueberries as mini ice cubes!](../images/20190319_210047.jpg)
 
 This year, the choir will be selling boxes of frozen Maritime blueberries as one of our fundraising activities. You can find lots of creative blueberry recipes online, but here's a little secret: did you know they make great ice cubes??
 
