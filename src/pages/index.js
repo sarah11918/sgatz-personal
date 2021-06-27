@@ -30,7 +30,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <StaticImage src="../images/SCC2019FUN.jpg" alt="SCC fun pose"  />
+      <StaticImage src="../images/2019choirFUN.jpg" alt="SCC fun pose"  />
       
       <ul>
         <li><Link to="/blog/">Blog</Link></li>
