@@ -3,7 +3,7 @@ title: Thanks for coming!
 date: 2019-12-11
 
 ---
-<!-- ![](/images/IMG_0620.jpeg) -->
+![](../images/IMG_0620.jpeg)
 
 Thanks to all who packed the pews for our final concert of the decade! We hope you enjoyed the show as much as we enjoyed sharing our music with you.
 

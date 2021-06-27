@@ -4,7 +4,7 @@ title: Social Distancing
 sub_heading: Choir in the time of COVID-19
 date: 2020-03-26 
 ---
-<!-- ![](/images/20200324_212657.png) -->
+![](../images/20200324_212657.png)
 
 Here's the story, of a lovely choir....
 

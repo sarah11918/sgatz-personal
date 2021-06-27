@@ -2,7 +2,7 @@
 title: 'Don''t think of it as "losing a summer" . . . '
 date: 2019-09-02 
 ---
-<!-- ![](/images/20190108_204700.jpg) -->
+![](../images/20190108_204700.jpg)
 
 . . . but "gaining a new term of choir!"
 

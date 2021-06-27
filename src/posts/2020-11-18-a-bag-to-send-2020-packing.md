@@ -4,7 +4,7 @@ title: A bag to send 2020 packing??
 date: 2020-11-18 
 
 ---
-<!-- ![](/images/scc-fb-cover-totesfundraiser-2.png) -->
+![](../images/scc-fb-cover-totesfundraiser.png)
 
 We have many things to be thankful for on PEI, one of which is that some members of our choir can continue to meet, with masks and distancing, for some much-needed social singing. 
 

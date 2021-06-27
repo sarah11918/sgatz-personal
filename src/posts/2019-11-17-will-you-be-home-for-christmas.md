@@ -3,7 +3,7 @@ title: Will you be Home for Christmas?
 date: 2019-11-17
 
 ---
-<!-- ![](/images/posters/concertposterchristmas2019.jpg) -->
+![](../images/concertposterchristmas2019.jpg)
 
 Please join us for one (or both!) of our Christmas concerts this season! Both shows begin at 7:00 p.m. and tickets are available at the door.
 
