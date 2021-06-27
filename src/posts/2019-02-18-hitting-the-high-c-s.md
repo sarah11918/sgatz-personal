@@ -4,7 +4,7 @@ sub_heading: Upcoming Choral Fest in Digby, NS
 date: 2019-02-18
 
 ---
-<!-- ![](/images/20190219_202330.jpg) -->
+![Poster advertising this year's Digby High Cs Choral Festival, May 17-19 at the Digby Pines resort and Spa.](../images/20190219_202330.jpg)
 
 This year, we are excited that our own Director Dr. Margot Rejskind will be the guest conductor for the Digby High C's Choral Fest.
 
