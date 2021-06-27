@@ -5,7 +5,7 @@ date: 2019-01-19
 ---
 ## Save the dates: May 26 and June 9
 
-<!-- ![](/images/20190119_performancefromaudience.jpg) -->
+![The choir on stage in concert at St. Mary's Church in Indian River](../images/20190119_performancefromaudience.jpg)
 
 We are pleased to announce the dates of our spring concerts.
 

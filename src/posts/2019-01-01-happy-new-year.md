@@ -3,7 +3,7 @@ title: Happy New Year!
 date: 2019-01-01 
 
 ---
-<!-- ![](/images/20190101_mallcaroling.jpg) -->
+![A few choir members at the mall with Santa.](../images/20190101_mallcaroling.jpg)
 
 We've been taking a break for the holiday season, but Santa brought us a brand new website!
 
