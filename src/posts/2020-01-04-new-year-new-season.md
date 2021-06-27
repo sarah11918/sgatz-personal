@@ -3,7 +3,7 @@ title: New Year, New Season!
 date: 2020-01-04
 
 ---
-<!-- ![](../images/20190115_202118.jpg) -->
+![](../images/20190115_202118.jpg)
 
 Are you ready for a new year of music in Summerside?
 
