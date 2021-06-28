@@ -9,7 +9,7 @@ const IndexPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
-        allMarkdownRemark(limit: 3, sort: { fields: frontmatter___date, order: DESC }) {
+        allMarkdownRemark(limit: 4, sort: { fields: frontmatter___date, order: DESC }) {
           edges {
             node {
               frontmatter {
@@ -43,7 +43,7 @@ const IndexPage = () => {
 
         <RecentTweet />
         <div style = {{width: `25%`}} ></div>
-        <div className="news" style={{ marginBottom: `1em`, marginTop:`0.5em`}}>
+        <div className="news" style={{ marginTop:`0.5em`}}>
           <h2 style={{fontSize:`1.25em`, fontWeight: `400`, letterSpacing:`0.5px`}} >Latest News</h2>
           <ul style={{listStyle: `none`}}>
               {data.allMarkdownRemark.edges.map(edge => {
@@ -54,7 +54,7 @@ const IndexPage = () => {
                         {edge.node.frontmatter.title}
                       </Link>
                     </p>
-                    <div>
+                    <div style={{marginBottom: `1.5em`}}>
                       <span style={{fontSize: `0.75em`}}>
                         {edge.node.frontmatter.date}
                       </span>
