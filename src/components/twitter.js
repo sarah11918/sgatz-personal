@@ -3,14 +3,14 @@ import {Timeline} from "react-twitter-widgets"
 
 const RecentTweet = () => (
   <>
-   <div style={{width: `80%`, marginTop: `2em`}}>
+   <div className="tweet" >
     <Timeline
         dataSource={{
           sourceType: 'profile',
           screenName: 'summersidechoir'
       }}
         options={{
-          // height: '200',
+          height: '10',
           // width: '200',
           tweetLimit: '1'
       }}
