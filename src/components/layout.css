@@ -638,3 +638,104 @@ pre tt:after {
   
 }
 
+
+
+nav {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding-bottom: 0;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+
+.left-menu {
+  grid-column: 1;
+}
+
+.logo-center {
+  grid-column: 2;
+  text-align: right;
+}
+
+
+.nav-container {
+  width: 100%;
+  background: white;
+}
+
+  #nav-toggle, .burger-menu {
+  display: none;
+  
+}
+
+@media only screen and (max-width: 770px) {
+  .burger-menu {
+    display: inline-block;
+  }
+
+  .left-menu {
+    display: none;
+  }
+
+
+  #nav-toggle:checked ~ .left-menu {
+    display: grid;
+    grid-row: 2;
+  }
+} 
+
+/*  @media only screen and (min-width: 770px) and (max-width: 1025px) {
+     nav {
+         padding-left: 20px;
+     }
+     .content-narrow {
+         padding-left: 20px;
+     }
+
+ }
+
+*/
+  .burger-menu {
+  width: 40px;
+  margin-left: 15px;
+  overflow-wrap: normal;
+}
+
+ .left-menu a {
+  padding: 15px;
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 0.5em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.left-menu a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+ .left-menu a:focus {
+    color: black;
+    font-weight: bold;
+}
+
+  .logo-center {
+  font-size: 18px;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+  .left-menu {
+  grid-column: 1;
+  align-self: center;
+}
+
+  .burger-menu {
+  grid-column: 1;
+  align-self: center;
+  /* margin-left: 20px; */
+}
