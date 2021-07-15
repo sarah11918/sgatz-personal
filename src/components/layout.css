@@ -715,10 +715,12 @@ nav {
 
 .left-menu a:hover {
     color: black;
+    font-weight: bold;
 }
 
  .left-menu a:focus {
     color: black;
+    font-weight: bold;
 }
 
   .logo-center {
