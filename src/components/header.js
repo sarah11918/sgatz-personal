@@ -3,6 +3,10 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import {StaticImage} from "gatsby-plugin-image"
 
+//From current site
+
+
+
 
 // function changeBackground(event) {
 //   event.target.style.color = 'black';
@@ -50,8 +54,10 @@ const Header = ({ siteTitle }) => (
       }}
     >
 
-      <Link to="/"><StaticImage src="../images/scclogo.png" alt="SCC Logo" width="150" /></Link>
-     {/* <ul 
+           {/* 
+           <Link to="/"><StaticImage src="../images/scclogo.png" alt="SCC Logo" width="150" /></Link>
+
+           <ul 
         style={{ 
           listStyle: `none`, 
           float: `right`,  
@@ -65,6 +71,26 @@ const Header = ({ siteTitle }) => (
         <NavLink activeClassName="active" to="/join/">Join</NavLink>
       </ul> */}
     </div>
+
+
+<div class="container">
+ 
+<div class="nav-container">
+  <nav>
+  <input type="checkbox" id="nav-toggle" />
+  <label for="nav-toggle" class="burger-menu">
+      MENU
+  </label>
+    <div class="left-menu">
+    <a href="/about/">About</a>
+    <a href="/join/">Join The Choir</a>
+    <a href="/calendar/">Calendar</a>
+    <a href="/performances/">Performances</a>
+    <a href="/blog/">News</a>
+    </div>
+    <Link to="/"><StaticImage src="../images/scclogo.png" alt="SCC Logo" width="150" /></Link>
+  </nav>
+</div></div>
 
   </header>
 )
