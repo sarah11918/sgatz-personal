@@ -3,7 +3,7 @@ module.exports = {
     title: `Summerside Community Choir`,
     description: `PEI's longest-running community Choir!`,
     author: `@summersidechoir`,
-    siteUrl: `https://sumchoir.netlify.app/`,
+    siteUrl: `https://summersidechoir.ca/`,
   },
   plugins: [
     {
@@ -25,7 +25,7 @@ module.exports = {
           ...options,
           custom_elements: [
             {
-              'atom:link href="https://sumchoir.netlify.app/rss.xml" rel="self" type="application/rss+xml"': null,
+              'atom:link href="https://summersidechoir.ca/rss.xml" rel="self" type="application/rss+xml"': null,
             },
           ],
       }),
